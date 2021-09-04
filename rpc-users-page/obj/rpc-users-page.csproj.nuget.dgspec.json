@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-rest\\rpc-rest.csproj": {}
+    "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-users-page\\rpc-users-page.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-rest\\rpc-rest.csproj": {
+    "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-users-page\\rpc-users-page.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-rest\\rpc-rest.csproj",
-        "projectName": "rpc-rest",
-        "projectPath": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-rest\\rpc-rest.csproj",
+        "projectUniqueName": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-users-page\\rpc-users-page.csproj",
+        "projectName": "rpc-users-page",
+        "projectPath": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-users-page\\rpc-users-page.csproj",
         "packagesPath": "C:\\Users\\Giova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-rest\\obj\\",
+        "outputPath": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-users-page\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Giova\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xLVu6+qN5MHnLG3DmzHUZi9y74VhiECShQPfPjv04D3Z6BfvRUSw/cD5T42cR5JX2ywylPPIVaDd/6/Y4uCwWw==",
+  "dgSpecHash": "HAOf0qWe/somdynCd/OA2g1drLRX+jjyDOpyH3tcWUTXkBhSlkcPldKJR/kun0t98dpQuZOueanp4h9Gl9QorQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-rest\\rpc-rest.csproj",
+  "projectFilePath": "C:\\Users\\Giova\\OneDrive\\Escritorio\\asp-pi\\rpc-users-page\\rpc-users-page.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Giova\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.9\\microsoft.aspnetcore.mvc.razor.extensions.5.0.9.nupkg.sha512",
     "C:\\Users\\Giova\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.9\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.9.nupkg.sha512",

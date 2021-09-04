@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = rpc_rest
-build_property.ProjectDir = C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-rest\
+build_property.RootNamespace = rpc_users_page
+build_property.ProjectDir = C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\

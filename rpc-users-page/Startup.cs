@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace rpc_rest
+namespace rpc_users_page
 {
     public class Startup
     {

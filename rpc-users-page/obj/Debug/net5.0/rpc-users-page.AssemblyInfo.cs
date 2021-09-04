@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("rpc-rest")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("rpc-users-page")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("rpc-rest")]
-[assembly: System.Reflection.AssemblyTitleAttribute("rpc-rest")]
+[assembly: System.Reflection.AssemblyProductAttribute("rpc-users-page")]
+[assembly: System.Reflection.AssemblyTitleAttribute("rpc-users-page")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
