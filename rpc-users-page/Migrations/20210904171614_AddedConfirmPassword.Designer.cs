@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using rpc_users_page.Data;
 
 namespace rpc_users_page.Migrations
 {
     [DbContext(typeof(rpc_users_pageContext))]
-    partial class rpc_users_pageContextModelSnapshot : ModelSnapshot
+    [Migration("20210904171614_AddedConfirmPassword")]
+    partial class AddedConfirmPassword
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

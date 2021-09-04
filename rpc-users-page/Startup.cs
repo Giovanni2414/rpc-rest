@@ -29,6 +29,11 @@ namespace rpc_users_page
 
             services.AddDbContext<rpc_users_pageContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("rpc_users_pageContext")));
+
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AddPageRoute("/Users/Index", "");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

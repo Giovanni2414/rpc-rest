@@ -24,12 +24,23 @@ namespace rpc_users_page.Models
     public class User
     {
         public int ID { get; set; }
+        [Required]
+        [StringLength(60, MinimumLength = 6)]
         public string Username { get; set; }
+        [Required]
+        [StringLength(60, MinimumLength = 8)]
         public string Password { get; set; }
+        [Required]
+        [Compare("Password", ErrorMessage = "Confirm password doesn't match, Type again !")]
+        public string ConfirmPassword { get; set; }
+        [Required]
+        [StringLength(60, MinimumLength = 2)]
         public string Firstname { get; set; }
+        [Required]
+        [StringLength(60, MinimumLength = 2)]
         public string Lastname { get; set; }
-
         [DataType(DataType.Date)]
+        [Required]
         public DateTime Birthdate { get; set; }
     }
 }

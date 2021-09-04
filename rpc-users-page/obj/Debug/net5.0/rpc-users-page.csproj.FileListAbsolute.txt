@@ -415,7 +415,6 @@ C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\rpc-us
 C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\rpc-users-page.TagHelpers.output.cache
 C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\rpc-users-page.RazorCoreGenerate.cache
 C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Giova\OneDrive\Escritorio\asp-pi\rpc-users-page\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs

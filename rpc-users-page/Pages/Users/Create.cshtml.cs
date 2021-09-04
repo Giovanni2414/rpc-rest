@@ -38,7 +38,7 @@ namespace rpc_users_page.Pages.Users
             _context.User.Add(User);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Users/Index");
         }
     }
 }
