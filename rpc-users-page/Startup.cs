@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using rpc_users_page.Data;
 
 namespace rpc_users_page
 {
@@ -24,6 +26,9 @@ namespace rpc_users_page
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<rpc_users_pageContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("rpc_users_pageContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
