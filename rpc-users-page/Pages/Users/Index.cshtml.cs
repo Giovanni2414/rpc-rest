@@ -18,7 +18,6 @@ namespace rpc_users_page.Pages.Users
         public IndexModel(rpc_users_page.Data.rpc_users_pageContext context)
         {
             _context = context;
-            UsernameLogged = string.Empty;
         }
 
         public IList<User> User { get;set; }
@@ -29,7 +28,6 @@ namespace rpc_users_page.Pages.Users
         public string UsernameLogged { get; set; }
         public async Task OnGetAsync()
         {
-            Console.WriteLine(UsernameLogged);
             if (!string.IsNullOrEmpty(Username) & !string.IsNullOrEmpty(Password))
             {
                 var userLogged = _context.User.FirstOrDefault(u => u.Username == Username && u.Password == Password);
@@ -40,6 +38,7 @@ namespace rpc_users_page.Pages.Users
                 else
                 {
                     UsernameLogged = userLogged.Username;
+                    HttpContext.Session.SetString("Username", userLogged.Username);
                 }
             }
             else
