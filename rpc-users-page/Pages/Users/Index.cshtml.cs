@@ -18,6 +18,7 @@ namespace rpc_users_page.Pages.Users
         public IndexModel(rpc_users_page.Data.rpc_users_pageContext context)
         {
             _context = context;
+            UsernameLogged = string.Empty;
         }
 
         public IList<User> User { get;set; }
@@ -26,7 +27,9 @@ namespace rpc_users_page.Pages.Users
         [BindProperty(SupportsGet = true)]
         public string Password { get; set; }
         public string UsernameLogged { get; set; }
-        public async Task OnGetAsync()
+        public bool EmptyCamps { get; set; }
+        public bool UserDoesntExist { get; set; }
+        public async Task<IActionResult> OnPost()
         {
             if (!string.IsNullOrEmpty(Username) & !string.IsNullOrEmpty(Password))
             {
@@ -34,18 +37,24 @@ namespace rpc_users_page.Pages.Users
                 if (userLogged is null)
                 {
                     UsernameLogged = string.Empty;
+                    UserDoesntExist = true;
+                    EmptyCamps = false;
+                    Console.WriteLine("No");
+                    return Page();
                 }
                 else
                 {
                     UsernameLogged = userLogged.Username;
-                    HttpContext.Session.SetString("Username", userLogged.Username);
+                    User = await _context.User.ToListAsync();
+                    return Page();
                 }
             }
             else
             {
-                UsernameLogged = "";
+                UserDoesntExist = false;
+                EmptyCamps = true;
+                return Page();
             }
-            User = await _context.User.ToListAsync();
         }
     }
 }

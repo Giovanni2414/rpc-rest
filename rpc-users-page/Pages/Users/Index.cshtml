@@ -12,9 +12,16 @@
         @if (Model.UsernameLogged == string.Empty || Model.UsernameLogged == "" || Model.UsernameLogged.Length < 1 || Model.UsernameLogged == null)
         {
         <div class="d-block text-center">
-            @Html.DisplayFor(model => model.UsernameLogged)
             <img src="https://pbs.twimg.com/profile_images/493847405670850561/qslkfHlq.jpeg" alt="RPC_Logo" width="100" height="100" />
-            <form method="get">
+            @if (Model.EmptyCamps)
+            {
+                <div class="alert alert-info mt-3">It can't be empty camps</div>
+            }
+            @if (Model.UserDoesntExist)
+            {
+                <div class="alert alert-danger mt-3">Username or Password incorrect</div>
+            }
+            <form method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label class="control-label">Username</label>
